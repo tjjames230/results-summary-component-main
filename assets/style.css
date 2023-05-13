@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background: #fff;
+    font-size: 18px;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+#container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    background: #fff;
+    filter: drop-shadow(15px 15px 25px #e6e9f1);
+    height: 500px;
+    width: 50%;
+    display: flex;
+}
+
+#result {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+#result-header {
+    font-size: 24px;
+    color: hsl(241, 100%, 89%);
+}
+
+#circle {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#main-num {
+    font-size: 56px;
+    color: #fff;
+    font-weight: 800;
+}
+
+#sub-num {
+    font-size: 16px;
+    color: hsl(241, 100%, 89%);
+}
+
+h3 {
+    font-size: 30px;
+    color: #fff;
+}
+
+#result-body {
+    color: hsl(241, 100%, 89%);
+    text-align: center;
+    width: 65%;
+}
+
+#summary {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+#summary-header {
+    color: hsl(224, 30%, 27%);
+    font-size: 24px;
+    text-align: left;
+    width: 80%;
+}
+
+#summary-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: 60%;
+}
+
+.summary-card {
+    height: 20%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.summary-num {
+    font-size: 16px;
+}
+
+.sc-red {
+    background: hsla(0, 100%, 67%, 7%);
+    border-radius: 10px;
+}
+
+.sc-yellow {
+    background: hsla(39, 100%, 56%, 7%);
+    border-radius: 10px;
+}
+
+.sc-green {
+    background: hsla(166, 100%, 37%, 7%);
+    border-radius: 10px;
+}
+
+.sc-blue {
+    background: hsla(234, 85%, 45%, 7%);
+    border-radius: 10px;
+}
+
+.sum-subhead {
+    font-size: 24px;
+}
